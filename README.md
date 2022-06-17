@@ -13,3 +13,5 @@ v1-cnn-eeg.ipynb: Processes data using CNN. Results were not above chance. </br>
 v2-cnn-eeg.ipynb: Preprocesses data using wavelet denoising, then processes it using CNN. Results were not above chance.
 
 GroupingData.ipynb: Groups the EEG data into trials so that the data can be processed as trials instead of partial seconds (individual rows). This is part of a different attempt that is currently still in the works. 
+
+EEG_ML-TimeFix.ipnb: Adds a "Time" column with numbers 1-1280 for each trial. This gives each trial an independent time sequence.
